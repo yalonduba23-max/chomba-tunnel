@@ -18,7 +18,8 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.sdk = 33
-android.arch = arm64-v8a
+android.build_tools_version = 34.0.0
+android.arch = arm64-v8a, armeabi-v7a
 
 # For SSH support (optional — uncomment if you add paramiko)
 requirements = python3,kivy==2.3.0,openssl,requests,paramiko,cryptography,bcrypt,cffi
